@@ -34,6 +34,7 @@ end
       sender.balance += amount
       receiver.balance -= amount
       @status = "reverse"
+    end
 
   end
 end
